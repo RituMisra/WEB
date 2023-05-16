@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    background-color: rgb(225, 235, 235);
+    margin-bottom: 0px;
+}
+
+.style1 {
+    font-style: normal;
+    font-size: large;
+   
+}
+
+.style2 {
+   
+  margin-top: 70px;
+    font-size: small
+}
+
+.headings {
+    margin-bottom: 4px;
+    background-color:rgb(172, 188, 240);
+    font-size: large;
+    font-style: oblique;
+    margin-top: 4px;
+}
+
+.para {
+    margin-top: .50;
+    font-weight: normal;
+    background-color: bisque;
+    margin-bottom: .50;
+}
+.block {
+    display: flex;
+    background-color: rgb(224, 248, 209);
+    height: 30vh;
+    width: 100vw;
+    justify-content: wrap;
+}
+
+

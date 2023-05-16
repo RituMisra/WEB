@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="1.js"></script>
+</head>
+<body>
+    <div style="height: 300px; background-color: red;">
+        <img 
+        id="imgid"
+        src="1.webp" 
+        alt=""
+        style="height: 300px;
+        object-fit: cover" />
+    </div>
+    <br />
+    <input type="button" value="frontview" onclick="changeview(1)" />
+    <input type="button" value="backview" onclick="changeview(2)" />
+    <input type="button" value="fullview" onclick="changeview(3)">
+   
+    <h1>
+        <span style="cursor: pointer;" onclick="like()">&#128077;</span>
+        <span id="likecounter">1</span>
+    </h1>
+    <h1>
+        <span style="cursor: pointer;" onclick="dislike()">&#128078;</span>
+        <span id="dislikecounter">0</span>
+    </h1>
+
+</body>
+</html>
